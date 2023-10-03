@@ -1,0 +1,6 @@
+.header__nav-link, .header__nav-link--contact  {
+    display: inline;
+    font-family: 'Marcellus', serif;
+    font-weight: bold;
+    font-size: 20px;
+}

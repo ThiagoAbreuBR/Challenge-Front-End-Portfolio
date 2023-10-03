@@ -1,0 +1,41 @@
+.introduction__presentation--link {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width:50%;
+}
+
+.introduction__presentation--link a {
+    background-color: rgba(42, 122, 228, 1);
+    border-radius:5px 5px;
+    display: inline;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:1.5rem;
+    padding:1.5rem 1.5rem;
+    transition:1s;
+}
+
+.introduction__presentation--link a:hover {
+    background-color: rgba(42, 122, 228, 0.5);
+}
+
+.introduction__presentation--link a {
+    color:#000000;
+}
+
+.introduction__presentation--link img {
+    width: 13px;
+    height: 13px;
+    margin-left: 3px;
+}
+
+
+@media screen and (max-width:767px) {
+    .introduction__presentation--link {
+       width:100%;
+    }
+    .introduction__presentation--link a {
+        padding:1rem 1rem;
+    }
+}

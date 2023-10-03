@@ -1,0 +1,87 @@
+.contact__form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    float: left;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.contact__form h3 {
+    color: #FFFFFF;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.contact__form p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.contact__form-name,
+.contact__form-email,
+.contact__form-topic,
+.contact__form-message {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contact__form-name--field,
+#contact__form-email--field,
+#contact__form-topic--field,
+#contact__form-message--field {
+    border: transparent;
+    border-radius: 3px 3px;
+    box-sizing: border-box;
+    font-family: 'Marcellus', serif;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+#contact__form-message--field {
+    height: 97px;
+    resize: none;
+}
+
+#contact__form-name--field:focus,
+#contact__form-email--field:focus,
+#contact__form-topic--field:focus,
+#contact__form-message--field:focus {
+    border-radius: 0.3rem 0.3rem;
+    border-bottom: 5px solid rgba(42, 122, 228, 1);
+}
+
+#contact__form-btnSubmit {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgba(42, 122, 228, 1);
+    color: rgb(255, 255, 255);
+    border-radius: 3px 3px;
+    border: transparent;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: 0.5s;
+}
+
+#contact__form-btnSubmit:hover {
+    background-color: #00FF00;
+    border: 1px solid #00FF00;
+    color: #000;
+}
+
+
+@media screen and (max-width:767px) {
+    .contact__form {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+}

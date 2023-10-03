@@ -1,0 +1,57 @@
+.professionalExperience__work-demo--I,
+.professionalExperience__work-demo--II,
+.professionalExperience__work-demo--III {
+    align-items: center;
+    display: flex;
+    float: left;
+    height: 400px;
+    justify-content: center;
+    width: 50%;
+}
+
+.professionalExperience__work-demo--I {
+    order: 1;
+}
+
+.professionalExperience__work-demo--II {
+    order: 4;
+}
+
+.professionalExperience__work-demo--III {
+    order: 5;
+}
+
+.professionalExperience__work-demo--I img,
+.professionalExperience__work-demo--II img,
+.professionalExperience__work-demo--III img {
+    width: 600px;
+    height: 350px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+    border-radius: 1px 1px;
+}
+
+@media screen and (max-width:767px) {
+
+    .professionalExperience__work-demo--I,
+    .professionalExperience__work-demo--II,
+    .professionalExperience__work-demo--III {
+        width: 100%;
+        margin-top: -6rem;
+    }
+
+    .professionalExperience__work-demo--II {
+        order: 4;
+    }
+
+    .professionalExperience__work-demo--II,
+    .professionalExperience__work-demo--III {
+        margin-top: -13rem;
+    }
+
+    .professionalExperience__work-demo--I img,
+    .professionalExperience__work-demo--II img,
+    .professionalExperience__work-demo--III img {
+        width: 250px;
+        height: 175px;
+    }
+}

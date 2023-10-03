@@ -1,0 +1,8 @@
+.skillsandhobbies__skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:3rem;
+    justify-content:center;
+    margin-top:3rem;
+}

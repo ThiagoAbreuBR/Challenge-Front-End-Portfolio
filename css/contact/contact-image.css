@@ -1,0 +1,15 @@
+.contact__image {
+    align-items: center;
+    display: flex;
+    height: 500px;
+    float: left;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+@media screen and (max-width:767px) {
+    .contact__image {
+        display: none;
+    }
+}

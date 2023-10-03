@@ -1,0 +1,44 @@
+.professionalExperience__work-link {
+    display: flex;
+    gap: 3rem;
+}
+
+.professionalExperience__work-link--repository,
+.professionalExperience__work-link--webPage {
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(42, 122, 228, 1);
+    width: 150px;
+    height: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.professionalExperience__work-link--repository,
+.professionalExperience__work-link--webPage {
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(42, 122, 228, 1);
+    width: 150px;
+    height: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.professionalExperience__work-link--webPage {
+    background-color: rgba(42, 122, 228, 1);
+}
+
+.professionalExperience__work-link--repository a,
+.professionalExperience__work-link--webPage a {
+    color: #FFFFFF;
+}
+
+.professionalExperience__work-link--repository a {
+    color: rgba(42, 122, 228, 1);
+}
+
+.professionalExperience__work-link--repository:hover,
+.professionalExperience__work-link--webPage:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}

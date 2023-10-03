@@ -1,0 +1,14 @@
+#introduction {
+    align-items: center;
+    display: flex;
+    height: 375px;
+    justify-content: space-around;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+@media screen and (max-width:767px) {
+    #introduction {
+        flex-direction: column;
+    }
+}

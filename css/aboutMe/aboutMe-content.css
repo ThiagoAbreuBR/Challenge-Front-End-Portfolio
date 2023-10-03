@@ -1,0 +1,24 @@
+.aboutMe__content {
+    height:auto;
+    width:100%;
+}
+
+.aboutMe__content h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size:33px;
+    margin-top:1.5rem;
+}
+
+.aboutMe__content p {
+    font-size:23px;
+    margin-top:1.5rem;
+    line-height: 33px;
+}
+
+
+@media screen and (max-width:767px) {
+    .aboutMe__content p {
+        font-size:17px;
+        line-height: 20px;
+    }
+}

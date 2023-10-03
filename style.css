@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+}
+
+body {
+    font-family: 'Marcellus', serif;
+    background-image: linear-gradient(#F5F5F5 0%, #E3E3E3 12.5%, #D1D1D1 25%, #BEBEBE 37.5%, #ABABAB 50%, #989898 62.5%, #757575 75%, #272727 87.5%);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-image: linear-gradient(#F5F5F5 0%, #E3E3E3 12.5%, #D1D1D1 25%, #BEBEBE 37.5%, #ABABAB 50%, #989898 62.5%, #757575 75%, #272727 87.5%);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+    margin-top:10rem;
+}

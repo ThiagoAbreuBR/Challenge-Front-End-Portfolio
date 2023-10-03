@@ -1,0 +1,18 @@
+.header__nav-link, .header__nav-link--contact {
+    margin: 1.5rem;
+    transition: 1s;
+}
+
+.header__nav-link a:hover {
+    color: rgba(42, 122, 228, 1)
+}
+
+@media screen and (max-width:1023px) {
+    .header__nav-link {
+        display: none;
+    }
+
+    .header__nav-link--contact {
+        font-size: 15px;
+    }
+}

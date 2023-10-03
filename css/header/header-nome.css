@@ -1,0 +1,16 @@
+.header__name {
+    font-size: 27px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.header__name a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media screen and (max-width:767px) {
+    .header__name {
+        white-space: nowrap;
+        font-size: 17px;
+    }
+}

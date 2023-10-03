@@ -1,0 +1,55 @@
+.professionalExperience__work-card--I,
+.professionalExperience__work-card--II,
+.professionalExperience__work-card--III {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.professionalExperience__work-card--I {
+    order: 2;
+    z-index:3;
+}
+
+.professionalExperience__work-card--II {
+    order: 4;
+    z-index:3;
+}
+
+.professionalExperience__work-card--III {
+    order: 6;
+}
+
+.professionalExperience__work-card--I h3,
+.professionalExperience__work-card--II h3,
+.professionalExperience__work-card--III h3 {
+    font-size: 27px;
+    margin-bottom: 1rem;
+}
+
+.professionalExperience__work-card--I p,
+.professionalExperience__work-card--II p,
+.professionalExperience__work-card--III p {
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width:767px) {
+
+    .professionalExperience__work-card--I,
+    .professionalExperience__work-card--II,
+    .professionalExperience__work-card--III {
+        width: 100%;
+        margin-top: -13rem;
+    }
+
+    .professionalExperience__work-card--II {
+        order: 5;
+    }
+}

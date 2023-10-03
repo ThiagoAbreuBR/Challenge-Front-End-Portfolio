@@ -1,0 +1,33 @@
+.introduction__presentation--photograph {
+    display: flex;
+    justify-content: center;
+    order: 2;
+    width: 30%;
+}
+
+.introduction__presentation--photograph {
+    height: 368px;
+    width: 368px;
+}
+
+.introduction__presentation--photograph img {
+    border-radius: 50%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+@media screen and (max-width:767px) {
+    .introduction__presentation--photograph {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .introduction__presentation--photograph img {
+        width: 150px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,28 @@
+.skillsandhobbies__hobbies--card {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: rgba(0, 0, 0, 0.1) 1px solid;
+    border-radius: 3px 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    text-align: center;
+    width: 150px;
+}
+
+.skillsandhobbies__hobbies--card img {
+    width: 100px;
+    height: 100px;
+}
+
+.skillsandhobbies__hobbies--card p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skillsandhobbies__hobbies--card:hover{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
